@@ -1,0 +1,27 @@
+@import "@/shared/styles/variables";
+@import "@/shared/styles/mixins";
+
+
+.tabs {
+  padding:6px;
+  background-color: $gray;
+  display: flex;
+  color: $text-muted;
+  border-radius: 6px;
+  height: 45px;
+  width: max-content;
+}
+.tab {
+  border: none  ;
+  background-color: transparent;
+  color: $text-muted;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tab.active {
+  background-color: $dark;
+  color: $white;
+}

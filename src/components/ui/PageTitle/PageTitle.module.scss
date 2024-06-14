@@ -1,0 +1,19 @@
+@import "@/shared/styles/variables";
+@import "@/shared/styles/mixins";
+
+.pageTop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 6px;
+}
+.title {
+  font-size: 24px;
+  color: #fff;
+  line-height: 100%;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 14px;
+  color: rgb(161, 161, 170);
+}

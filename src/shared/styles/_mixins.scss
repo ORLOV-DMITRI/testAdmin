@@ -1,0 +1,22 @@
+
+@mixin imgCover {
+	img{
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: cover;
+	}
+}
+@mixin imgContain {
+	img{
+		width: 100%;
+		height: 100%;
+		display: block;
+		object-fit: contain;
+	}
+}
+@mixin set-font($font-size, $line-height) {
+	font-size: $font-size;
+	$line-height-percent: round(($line-height / $font-size) * 100);
+	line-height: percentage($line-height-percent / 100); 
+}

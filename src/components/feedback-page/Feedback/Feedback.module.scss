@@ -1,0 +1,9 @@
+@import "@/shared/styles/variables";
+@import "@/shared/styles/mixins";
+
+.page {
+  padding: 24px 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
